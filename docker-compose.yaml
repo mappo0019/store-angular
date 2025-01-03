@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    volumes: 
+      - .:/app/store-angular
+    ports: 
+      - "4200:4200"
+    command: bash -c "ng serve --host 0.0.0.0"

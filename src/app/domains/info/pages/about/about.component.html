@@ -1,0 +1,16 @@
+    <div>
+        <h1 class="text-lg font-bold" >About</h1>
+        <p class="text-xs">Lorem, ipsum dolor sit amet <span highlight>consectetur adipisicing elit. Esse hic sint</span> beatae iure placeat maxime maiores deserunt assumenda, iste et saepe repellat totam officiis adipisci eum ut quas voluptatibus quam!</p>
+        <h3 class="text-sm">Número de clientes:</h3>
+        <p>
+            @if (duration() > 0) {
+<app-counter [duration]="duration()" [message]="message()"></app-counter>
+}
+        </p>
+        <div>
+            <app-wave-audio audioUrl = "assets/woo-243761.mp3"></app-wave-audio>
+        </div>
+    
+    </div>
+
+
